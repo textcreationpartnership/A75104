@@ -1,0 +1,565 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An annuall almanacke shewing, how to read the chapters of the whole Bible, from the beginning of Genesis, to the end of the Revelation, once in the yeare, by so many chapters every day. Calculated by Walter Holmes, sen.</title>
+            <author>Holmes, Walter.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1649</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 20 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A75104</idno>
+            <idno type="STC">Wing A1828</idno>
+            <idno type="STC">Thomason E1368_1</idno>
+            <idno type="STC">ESTC R209277</idno>
+            <idno type="EEBO-CITATION">99868163</idno>
+            <idno type="PROQUEST">99868163</idno>
+            <idno type="VID">169855</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A75104)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 169855)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 179:E1368[1])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An annuall almanacke shewing, how to read the chapters of the whole Bible, from the beginning of Genesis, to the end of the Revelation, once in the yeare, by so many chapters every day. Calculated by Walter Holmes, sen.</title>
+                  <author>Holmes, Walter.</author>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Thomas Harper,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1649.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Annotation on Thomason copy: "march 20 1648".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible --  Outlines, syllabi, etc. --  Early works to 1800.</term>
+               <term>Almanacs --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-09</date>
+            <label>Susie Lorand</label>Sampled and proofread</change>
+         <change>
+            <date>2010-09</date>
+            <label>Susie Lorand</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:169855:1" rendition="simple:additions"/>
+            <p>AN ANNUALL ALMANACKE:</p>
+            <p>Shewing, how to read the Chap<g ref="char:EOLhyphen"/>ters of the whole Bible, from the beginning of Geneſis, to the end of the Revelation, once in the Yeare, by ſo many Chapters every day.</p>
+            <p>Calculated by <hi>Walter Holmes, ſen.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>Thomas Harper,</hi> 1649.</p>
+         </div>
+      </front>
+      <body>
+         <div type="almanac_or_lectionary">
+            <pb facs="tcp:169855:2"/>
+            <pb n="3" facs="tcp:169855:2"/>
+            <list>
+               <head>The firſt Moneth March.</head>
+               <item>SUnday 25 day, Geneſis 1.2.3.4.</item>
+               <item>Monday 26. Geneſis 5.6.7 8.</item>
+               <item>Tueſday 27. Geneſis 9.10.11.12.</item>
+               <item>Wedneſday 28. Geneſis 13.14 15.16.</item>
+               <item>Thurſday 29. Geneſis 17.18.19.20.</item>
+               <item>Friday 30. Geneſis 21.22.23.24.</item>
+               <item>Saturday 31. Geneſis 25.26.27.28.</item>
+            </list>
+            <list>
+               <head>The ſecond Moneth Aprill.</head>
+               <item>Sunday 1. day, Geneſis 29.30.31.32.</item>
+               <item>Munday 2. Geneſis 33.34.35.36.</item>
+               <item>Tueſday 3. Geneſis 37.38.39.40.</item>
+               <item>Wedneſday 4. Geneſis 41.42.43.44.</item>
+               <item>Thurſday 5. Geneſis 45.46.47.48.</item>
+               <item>Friday 6. Geneſis 49.50. Exodus 1.2.</item>
+               <item>Saturday 7. Exodus 3.4 5.6.</item>
+               <item>Sunday 8 Exodus 7.8.9.10.</item>
+               <item>Monday 9. Exodus 11.12.13.14.</item>
+               <item>Tueſday 10. Exodus 15.16.17.18.</item>
+               <item>Wedneſday 11. Exodus 19.20.21.22.</item>
+               <item>Thurſday 12. Exodus 23.24.25.26.</item>
+               <item>Friday 13. Exodus 27.28.29.30.</item>
+               <item>Saturday 14. Exodus 31.32.33.34.</item>
+               <item>Sunday 15. Exodus 35.36.37.38.</item>
+               <pb n="4" facs="tcp:169855:3"/>
+               <item>Monday 16. Exodus 39.40. Leviticus 1.2.</item>
+               <item>Tueſday 17. Leviticus 3.4.5.6.</item>
+               <item>Wedneſday 18 Leviticus 7.8.9.10.</item>
+               <item>Thurſday 19. Leviticus 11.12.13.14.</item>
+               <item>Friday 20. Leviticus 15.16.17.18.</item>
+               <item>Saturday 21. Leviticus 19.20.21.22.</item>
+               <item>Sunday 22. Leviticus 23.24.25.26.</item>
+               <item>Monday 23. Leviticus 27. Numbers 1.2.3.</item>
+               <item>Tueſday 24. Numbers 4.5.6.7.</item>
+               <item>Wedneſday 25. Numbers 8.9.10.11.</item>
+               <item>Thurſday 26. Numbers 12.13.14.15.</item>
+               <item>Friday 27. Numbers 16.17.18.19.</item>
+               <item>Saturday 28. Numbers 20.21.22.23.</item>
+               <item>Sunday 29. Numbers 24.25.26 27.</item>
+               <item>Monday 30. Numbers 28.29 30.31.</item>
+            </list>
+            <list>
+               <head>The third Moneth May.</head>
+               <item>Tueſday 1 day, Numbers 32, 33, 34, 35.</item>
+               <item>Wedneſday 2. Numbers 36. Deuteromony 1, 2.3.</item>
+               <item>Thurſday 3. Deuteronomy 4, 5, 6, 7.</item>
+               <item>Friday 4. Deuteronomy 8, 9, 10.11.</item>
+               <item>Saturday 5. Deuteronomy 12, 13, 14.15.</item>
+               <item>Sunday 6. Deuteronomy 16, 17, 18, 19.</item>
+               <item>Monday 7. Deuteronomy 20, 21, 22, 23.</item>
+               <item>Tueſday 8. Deuteronomy 24, 25, 26 27.</item>
+               <item>Wedneſday 9. Deuteronomy 28, 29, 30, 31.</item>
+               <item>Thurſday 10. Deuteronomy 32, 33, 34. Joſhuah 1.</item>
+               <item>Friday 11. Joſuah 2, 3, 4, 5.</item>
+               <item>Saturday 12. Joſuah 6, 7, 8, 9.</item>
+               <pb n="5" facs="tcp:169855:3"/>
+               <item>Sunday 13. Joſuah 10, 11, 12, 13.</item>
+               <item>Monday 14. Joſuah 14, 15, 16, 17.</item>
+               <item>Tueſday 15. Joſuah 18, 19, 20, 21.</item>
+               <item>Wedneſday 16. Joſuah 22, 23, 24. Judges 1.</item>
+               <item>Thurſday 17. Judges 2, 3, 4, 5.</item>
+               <item>Friday 18. Judges 6, 7, 8, 9.</item>
+               <item>Saturday 19. Judges 10, 11, 12, 13.</item>
+               <item>Sunday 20. Judges 14, 15, 16, 17.</item>
+               <item>Monday 21. Judges 18, 19, 20, 21.</item>
+               <item>Tueſday 22. Ruth 1, 2, 3, 4.</item>
+               <item>Wedneſday 23. 1 Samuell 1, 2, 3, 4.</item>
+               <item>Thurſday 24. 1 Samuell 5, 6, 7, 8.</item>
+               <item>Friday 25. 1 Samuell 9, 10, 11, 12.</item>
+               <item>Saturday 26. 1 Samuel 13, 14, 15, 16.</item>
+               <item>Sunday 27. 1 Samuel 17, 18, 19, 20.</item>
+               <item>Monday 28. 1 Samuel 21, 22, 23, 24.</item>
+               <item>Tueſday 29. 1 Samuel 25, 26, 27, 28.</item>
+               <item>Wedneſday 30, 1 Samuel 29, 30, 31. 2 Samuel 1.</item>
+               <item>Thurſday 31. 2 Samuel 2, 3, 4, 5.</item>
+            </list>
+            <list>
+               <head>The fourth Moneth June.</head>
+               <item>Friday 1 day, 2 Samuel 6, 7, 8, 9.</item>
+               <item>Saturday 2. 2 Samuel 10.11, 12, 13.</item>
+               <item>Sunday 3. 2 Samuel 14, 15, 16, 17.</item>
+               <item>Monday 4. 2 Samuel 18, 19, 20, 21.</item>
+               <item>Tueſday 5. 2 Samuel 22, 23, 24. 1 Kings 1.</item>
+               <item>Wedneſday 6. 1 Kings 2, 3, 4, 5.</item>
+               <item>Thurſday 7. 1 Kings 6.7, 8, 9.</item>
+               <item>Friday 8. 1 Kings 10, 11, 12, 13.</item>
+               <pb n="6" facs="tcp:169855:4"/>
+               <item>Saturday 9. 1 Kings 14, 15, 16, 17.</item>
+               <item>Sunday 10. 1 Kings 18, 19, 20, 21.</item>
+               <item>Monday 11. 1 Kings 22. 2 Kings 1, 2, 3.</item>
+               <item>Tueſday 12. 2 Kings 4, 5, 6, 7.</item>
+               <item>Wedneſday 13. 2 Kings 8, 9, 10, 11.</item>
+               <item>Thurſday 14 2 Kings 12, 13, 14, 15.</item>
+               <item>Friday 15 2 Kings 16, 17, 18, 19.</item>
+               <item>Saturday 16 2 Kings 20, 21, 22, 23.</item>
+               <item>Sunday 17. 2 Kings 24, 25. 1 Chronicles 1, 2.</item>
+               <item>Monday 18. 1. Chronicles 3, 4, 5, 6.</item>
+               <item>Tueſday 19. 1 Chronicles 7 8, 9, 10.</item>
+               <item>Wedneſday 20. 1 Chronicles 11, 12, 13, 14.</item>
+               <item>Thurſday 2. 1 Chronicles 15, 16, 17, 18.</item>
+               <item>Friday 22. 1 Chronicles 19, 20, 21, 22.</item>
+               <item>Saturday 23. 1 Chronicles 23, 24, 25, 26.</item>
+               <item>Sunday 24. 1 Chronicles 27, 28, 29. 2 Chronicles 1.</item>
+               <item>Monday 25. 2 Chronicles 2, 3, 4, 5.</item>
+               <item>Tueſday 26. 2 Chronicles 6, 7, 8, 9.</item>
+               <item>Wedneſday 27. 2 Chronicles 10, 11, 12, 13.</item>
+               <item>Thurſday 28. 2 Chronicles 14, 15, 16, 17.</item>
+               <item>Friday 29. 2 Chronicles 18, 19, 20, 21.</item>
+               <item>Saturday 30. 2 Chronicles 22, 23, 24, 25.</item>
+            </list>
+            <list>
+               <head>The fift Moneth July.</head>
+               <item>Sunday 1 day. 2 Chronicles 26, 27, 28, 29.</item>
+               <item>Monday 2. 2 Chronicles 30, 31, 32, 33.</item>
+               <item>Tueſday 3. 2 Chronicles 34, 35, 36. Ezra 1.</item>
+               <item>Wedneſday 4. Ezra 2, 3, 4, 5.</item>
+               <item>Thurſday 5. Ezra 6, 7, 8, 9.</item>
+               <pb n="7" facs="tcp:169855:4"/>
+               <item>Friday 6. Ezra 10. Nehemiah 1, 2, 3.</item>
+               <item>Saturday 7. Nehemiah 4, 5, 6, 7.</item>
+               <item>Sunday 8. Nehemiah 8, 9, 10, 11.</item>
+               <item>Monday 9. Nehemiah 12, 13. Eſter 1, 2.</item>
+               <item>Tueſday 10. Eſter 3, 4, 5, 6.</item>
+               <item>Wedneſday 11. Eſter 7, 8, 9, 10.</item>
+               <item>Thurſday 12. Job 1, 2, 3, 4.</item>
+               <item>Friday 13. Job 5, 6, 7, 8.</item>
+               <item>Saturday 14. Job 9, 10, 11, 12.</item>
+               <item>Sunday 15. Job 13, 14, 15, 16.</item>
+               <item>Monday 16. Job 17, 18, 19, 20.</item>
+               <item>Tueſday 17. Job 21, 22, 23, 24.</item>
+               <item>Wedneſday 18. Job 25, 26, 27, 28.</item>
+               <item>Thurſday 19. Job 29, 30, 31, 32.</item>
+               <item>Friday 20. Job 33, 34, 35, 36.</item>
+               <item>Saturday 21. Job 37, 38, 39, 40.</item>
+               <item>Sunday 22.41, 42. Pſalms 1, 2.</item>
+               <item>Monday 23. Pſalmes 3, 4, 5, 6.</item>
+               <item>Tueſday 24. Pſalmes 7, 8, 9, 10.</item>
+               <item>Wedneſday 25. Pſalmes 11, 12, 13, 14.</item>
+               <item>Thurſday 26. Pſalmes 15, 16, 17, 18.</item>
+               <item>Friday 27. Pſalmes 19, 20, 21, 22.</item>
+               <item>Saturday 28. Pſalmes 23, 24, 25, 26.</item>
+               <item>Sunday 29. Pſalmes 27, 28, 29, 30.</item>
+               <item>Monday 30. Pſalmes 31, 32, 33, 34.</item>
+               <item>Tueſday 31. Pſalmes 35, 36, 37, 38.</item>
+            </list>
+            <list>
+               <head>The ſixt Moneth August.</head>
+               <item>Wedneſday 1 day, Pſalmes 39, 40, 41, 42.</item>
+               <pb n="8" facs="tcp:169855:5"/>
+               <item>Thurſday 2. Pſalmes 43, 44, 45, 46.</item>
+               <item>Friday 3. Pſalmes 47, 48, 49, 50.</item>
+               <item>Saturday 4. Pſalmes 51, 52, 53, 54.</item>
+               <item>Sunday 5. Pſalmes 55, 56, 57, 58.</item>
+               <item>Monday 6. Pſalmes 59, 60, 61, 62.</item>
+               <item>Tueſday 7. Pſalmes 63, 64, 65, 66.</item>
+               <item>Wedneſday 8. Pſalmes 67, 68, 69, 70.</item>
+               <item>Thurſday 9. Pſalmes 71, 72, 73, 74.</item>
+               <item>Friday 10. Pſalmes 75, 76, 77, 78.</item>
+               <item>Saturday 11. Pſalmes 79, 80, 81, 82.</item>
+               <item>Sunday 12. Pſalmes 83, 84, 85, 86.</item>
+               <item>Monday 13. Pſalmes 87, 88, 89, 90.</item>
+               <item>Tueſday 14. Pſalmes 91, 92, 93, 94.</item>
+               <item>Wedneſday 15. Pſalmes 95, 96, 97 98.</item>
+               <item>Thurſday 16. Pſalmes 99, 100, 101, 102.</item>
+               <item>Friday 17. Pſalmes 103, 104, 105, 106.</item>
+               <item>Saturday 18. Pſalmes 107, 108, 109, 110.</item>
+               <item>Sunday 19. Pſalmes 111, 112, 113, 114.</item>
+               <item>Monday 20. Pſalmes 115, 116, 117, 118.</item>
+               <item>Tueſday 21. Pſalms 119. Aleph Beth Gimel Daleth.</item>
+               <item>Wedneſday 22. Pſalme 119. He Vau Zain Cheth.</item>
+               <item>Thurſday 23. Pſalme 119. Teth Iod Caph Lamed.</item>
+               <item>Friday 24. Pſalme 119. Mem Nun Samech Ain.</item>
+               <item>Saturday 25. Pſalme 119. Pe Tſaddi Coph Reſh.</item>
+               <item>Sunday 26. Pſ. 119. Schin Tau Pſalmes 120, 121, 122.</item>
+               <item>Monday 27. Pſalmes 123, 124, 125, 126.</item>
+               <item>Tueſday 28. Pſalmes 127, 128, 129, 130.</item>
+               <item>Wedneſday 29. Pſalmes 131, 132, 133, 134.</item>
+               <item>Thurſday 30. Pſalmes 135, 136, 137, 138.</item>
+               <item>Friday 31. Pſalmes 139, 140, 141, 142.</item>
+            </list>
+            <pb n="9" facs="tcp:169855:5"/>
+            <list>
+               <head>The ſeaventh Moneth September.</head>
+               <item>Saturday 1 day Pſalmes 143, 144, 145, 146.</item>
+               <item>Sunday 2. Pſalmes 147, 148, 149, 150.</item>
+               <item>Monday 3. Proverbs 1, 2, 3, 4.</item>
+               <item>Tueſday 4. Proverbs 5, 6, 7, 8.</item>
+               <item>Wedneſday 5. Proverbs 9, 10, 11, 12.</item>
+               <item>Thurſday 6. Proverbs 13, 14, 15, 16.</item>
+               <item>Friday 7. Proverbs 17, 18, 19, 20.</item>
+               <item>Saturday 8. Proverbs 21, 22, 23, 24.</item>
+               <item>Sunday 9. Proverbs 25, 26, 27, 28.</item>
+               <item>Monday 10. Proverbs 29, 30, 31. Eccleſiaſtes 1.</item>
+               <item>Tueſday 11. Eccleſiaſtes 2, 3, 4, 5.</item>
+               <item>Wedneſday 12. Eccleſiaſtes 6, 7, 8, 9.</item>
+               <item>Thurſday 13. Eccleſiaſtes 10, 11, 12. Canticles 1.</item>
+               <item>Friday 14. Canticles 2, 3 4, 5.</item>
+               <item>Saturday 15. Canticles 6, 7, 8. Iſay 1.</item>
+               <item>Sunday 16. Iſay 2, 3, 4, 5.</item>
+               <item>Monday 17. Iſay 6, 7, 8, 9.</item>
+               <item>Tueſday 18. Iſay 10, 11, 12, 13.</item>
+               <item>Wedneſday 19. Iſay 14, 15, 16, 17.</item>
+               <item>Thurſday 20. Iſay 18, 19, 20, 21.</item>
+               <item>Friday 21. Iſay 22, 23, 24, 25.</item>
+               <item>Saturday 22. Iſay 26, 27, 28, 29.</item>
+               <item>Sunday 23. Iſay 30, 31, 32, 33.</item>
+               <item>Monday 24. Iſay 34, 35, 36, 37.</item>
+               <item>Tueſday 25. Iſay 38, 39, 40, 41.</item>
+               <item>Wedneſday 26. Iſay 42, 43, 44, 45.</item>
+               <item>Thurſday 27. Iſay 46, 47, 48, 49.</item>
+               <pb n="10" facs="tcp:169855:6"/>
+               <item>Friday 28. Iſay 50, 51, 52, 53.</item>
+               <item>Saturday 29. Iſay 54, 55, 56. Jeremiah 1.</item>
+               <item>Sunday 30. Jeremiah 2, 3, 4, 5.</item>
+            </list>
+            <list>
+               <head>The eight Moneth October.</head>
+               <item>Monday 1 day, Jeremiah 6, 7, 8, 9.</item>
+               <item>Tueſday 2. Jeremiah 10, 11, 12, 13.</item>
+               <item>Wedneſday 3. Jeremiah 14, 15, 16, 17.</item>
+               <item>Thurſday 4. Jeremiah 18, 19, 20, 21.</item>
+               <item>Friday 5. Jeremiah 22, 23, 24, 25.</item>
+               <item>Saturday 6. Jeremiah 26, 27, 28, 29.</item>
+               <item>Sunday 7. Jeremiah 30, 31, 32, 33.</item>
+               <item>Monday 8. Jeremiah 34, 35, 36, 37.</item>
+               <item>Tueſday 9. Jeremiah 38, 39, 40, 41.</item>
+               <item>Wedneſday 10. Jeremiah 42, 43, 44, 45.</item>
+               <item>Thurſday 11. Jeremiah 46, 47, 48, 49.</item>
+               <item>Friday 12. Jeremiah 50, 51, 52. Lamentations 1.</item>
+               <item>Saturday 13. Lamentations 2, 3, 4, 5.</item>
+               <item>Sunday 14. Ezekiel 1, 2, 3, 4.</item>
+               <item>Monday 15. Ezekiel 5, 6, 7, 8.</item>
+               <item>Tueſday 16. Ezekiel 9, 10, 11, 12.</item>
+               <item>Wedneſday 17. Ezekiel 13, 14, 15, 16.</item>
+               <item>Thurſday 18. Ezekiel 17, 18, 19, 20.</item>
+               <item>Friday 19. Ezekiel 21, 22, 23, 24.</item>
+               <item>Saturday 20. Ezekiel 25, 26, 27, 28.</item>
+               <item>Sunday 21. Ezekiel 29, 30, 31, 32.</item>
+               <item>Monday 22. Ezekiel 33, 34, 35, 36.</item>
+               <item>Tueſday 23. Ezekiel 37, 38, 39, 40.</item>
+               <item>Wedneſday 24. Ezekiel 41, 42, 43, 44.</item>
+               <pb n="11" facs="tcp:169855:6"/>
+               <item>Thurſday 25. Ezekiel 45, 46, 47, 48.</item>
+               <item>Friday 26. Daniel 1, 2, 3 4.</item>
+               <item>Saturday 27. Daniel 5, 6, 7, 8.</item>
+               <item>Sunday 28. Daniel 9, 10, 11, 12.</item>
+               <item>Monday 29. Hoſea 1, 2, 3, 4.</item>
+               <item>Tueſday 30. Hoſea 5, 6, 7, 8.</item>
+               <item>Wedneſday 31. Hoſea 9, 10, 11, 12.</item>
+            </list>
+            <list>
+               <head>The ninth Moneth November.</head>
+               <item>Thurſday 1 day, Hoſea 13, 14. Joel 1, 2.</item>
+               <item>Friday 2. Joel 3. Amos 1, 2, 3.</item>
+               <item>Saturday 3. Amos 4, 5, 6, 7.</item>
+               <item>Sunday 4. Amos 8, 9. Obadiah 1. Jonah 1.</item>
+               <item>Monday 5. Jonah 2, 3, 4. Micah 1.</item>
+               <item>Tueſday 6. Micah 2, 3, 4, 5.</item>
+               <item>Wedneſday 7. Micah 6, 7. Nahum 1, 2.</item>
+               <item>Thurſday 8. Nahum 3. Habakkuk 1, 2, 3. Zephaniah 1.</item>
+               <item>Friday 9. Zephaniah 2, 3. Haggai 1, 2.</item>
+               <item>Saturday 10. Zechariah 1, 2, 3, 4.</item>
+               <item>Sunday 11. Zechariah 5, 6, 7, 8.</item>
+               <item>Monday 12. Zechariah 9, 10, 11, 12.</item>
+               <item>Tueſday 13. Zechariah 13, 14. Malachi 1, 2.</item>
+               <item>Wedneſday 14. Malachi 3, 4. Apocrypha 1 Eſdras 1.2.</item>
+               <item>Thurſday 15. 1 Eſdras 3, 4, 5, 6.</item>
+               <item>Friday 16. 1 Eſdras 7, 8, 9. 2 Eſdras 1.</item>
+               <item>Saturday 17. 2 Eſdras 2, 3, 4, 5.</item>
+               <item>Sunday 18. 2 Eſdras 6, 7, 8, 9.</item>
+               <item>Monday 19. 2 Eſdras 10, 11, 12, 13.</item>
+               <item>Tueſday 20. 2 Eſdras 14, 15, 16. Tobit 1.</item>
+               <pb n="12" facs="tcp:169855:7"/>
+               <item>Wedneſday 21. Tobit 2, 3, 4, 5.</item>
+               <item>Thurſday 22. Tobit 6, 7, 8, 9.</item>
+               <item>Friday 23. Tobit 10, 11, 12, 13.</item>
+               <item>Saturday 24. Tobit 14. Iudeth 1, 2, 3.</item>
+               <item>Sunday 25, Iudeth 4, 5, 6, 7.</item>
+               <item>Monday 26. Iudeth 8, 9, 10, 11.</item>
+               <item>Tueſday 27. Iudeth 12, 13, 14, 15.</item>
+               <item>Wedneſday 28. Iudeth 16. Eſther 10, 11, 12.</item>
+               <item>Thurſday 29. Eſther 13, 14, 15, 16.</item>
+               <item>Friday 30. Wiſdome 1, 2, 3, 4.</item>
+            </list>
+            <list>
+               <head>The tenth Moneth December.</head>
+               <item>Saturday 1 day, Wiſdome 5, 6, 7, 8.</item>
+               <item>Sunday 2. Wiſdome 9, 10, 11, 12.</item>
+               <item>Monday 3. Wiſdome 13, 14, 15, 16.</item>
+               <item>Tueſday 4. Wiſdome 17, 18, 19. Eccleſiaſticus 1.</item>
+               <item>Wedneſday 5. Eccleſiaſticus 2, 3, 4, 5.</item>
+               <item>Thurſday 6. Eccleſiaſticus 6, 7, 8, 9.</item>
+               <item>Friday 7. Eccleſiaſticus 10, 11, 12, 13.</item>
+               <item>Saturday 8. Eccleſiaſticus 14, 15, 16, 17.</item>
+               <item>Sunday 9. Eccleſiaſticus 18, 19, 20, 21.</item>
+               <item>Monday 10. Eccleſiaſticus 22, 23, 24, 25.</item>
+               <item>Tueſday 11. Eccleſiaſticus 26, 27, 28, 29.</item>
+               <item>Wedneſday 12. Eccleſiaſticus 30, 31, 32, 33.</item>
+               <item>Thurſday 13. Eccleſiaſticus 34, 35, 36, 37.</item>
+               <item>Friday 14. Eccleſiaſticus 38, 39, 40, 41.</item>
+               <item>Saturday 15. Eccleſiaſticus 42, 43, 44, 45,</item>
+               <item>Sunday 16. Eccleſiaſticus 46, 47, 48, 49.</item>
+               <item>Monday 17. Eccleſiaſticus 50, 51. Baruch 1, 2.</item>
+               <pb n="13" facs="tcp:169855:7"/>
+               <item>Tueſday 18. Baruch 3, 4, 5. The Epiſtle of Ieremiah.</item>
+               <item>Wedneſday 19. The ſong of the three Children, Su<g ref="char:EOLhyphen"/>ſanna, Bel, and the Dragon. 1 Maccabees 1.</item>
+               <item>Thurſday 20. 1 Maccabees 2, 3, 4, 5.</item>
+               <item>Friday 21. 1 Maccabees 6, 7, 8, 9.</item>
+               <item>Saturday 22. 1 Maccabees 10, 11, 12, 13.</item>
+               <item>Sunday 23. 1 Maccabees 14, 15, 16. 2 Maccabees 1.</item>
+               <item>Monday 24. 2 Maccabees 2, 3, 4, 5.</item>
+               <item>Tueſday 25. 2 Maccabees 6, 7, 8, 9.</item>
+               <item>Wedneſday 26. 2 Maccabees 10, 11, 12, 13.</item>
+               <item>Thurſday 27. 2 Maccabees 14, 15. The New Te<g ref="char:EOLhyphen"/>ſtament. Matthew 1, 2.</item>
+               <item>Friday 28. Matthew 3, 4, 5.6.</item>
+               <item>Saturday 29. Matthew 7, 8, 9, 10.</item>
+               <item>Sunday 30. Matthew 11, 12, 13, 14.</item>
+               <item>Monday 31. Matthew 15, 16, 17, 18.</item>
+            </list>
+            <list>
+               <head>The eleaventh Moneth January.</head>
+               <item>Tueſday 1 day, Matthew 19, 20, 21, 22.</item>
+               <item>Wedneſday 2. Matthew 23, 24, 25, 26.</item>
+               <item>Thurſday 3. Matthew 27, 28. Marke 1, 2.</item>
+               <item>Friday 4. Marke 3, 4, 5, 6.</item>
+               <item>Saturday 5. Marke 7, 8, 9, 10.</item>
+               <item>Sunday 6. Marke 11, 12, 13, 14.</item>
+               <item>Monday 7. Marke 15, 16. Luke 1, 2.</item>
+               <item>Tueſday 8. Luke 3, 4, 5, 6.</item>
+               <item>Wedneſday 9. Luke 7, 8, 9, 10.</item>
+               <item>Thurſday 10. Luke 11, 12, 13, 14.</item>
+               <item>Friday 11. Luke 15, 16, 17, 18.</item>
+               <pb n="14" facs="tcp:169855:8"/>
+               <item>Saturday 12. Luke 19, 20, 21, 22.</item>
+               <item>Sunday 13. Luke 23, 24. John 1, 2.</item>
+               <item>Monday 14. John 3, 4, 5, 6.</item>
+               <item>Tueſday 15. John 7, 8, 9, 10.</item>
+               <item>Wedneſday 16. John 11, 12, 13, 14.</item>
+               <item>Thurſday 17. John 15, 16, 17 18.</item>
+               <item>Friday 18. John 19, 20, 21. Acts 1.</item>
+               <item>Saturday 19. Acts 2, 3, 4, 5.</item>
+               <item>Sunday 20. Acts 6, 7, 8, 9.</item>
+               <item>Monday 21. Acts 10, 11, 12, 13.</item>
+               <item>Tueſday 22. Acts 14, 15, 16, 17.</item>
+               <item>Wedneſday 23. Acts 18, 19, 20, 21.</item>
+               <item>Thurſday 24. Acts 22, 23, 24, 25.</item>
+               <item>Friday 25. Acts 26, 27, 28 Romans 1.</item>
+               <item>Saturday 26. Romans 2, 3, 4, 5.</item>
+               <item>Sunday 27. Romans 6, 7, 8, 9.</item>
+               <item>Monday 28. Romans 10, 11, 12, 13.</item>
+               <item>Tueſday 29. Romans 14, 15, 16. 1 Corinthians 1.</item>
+               <item>Wedneſday 30. 1 Corinthians 2, 3, 4, 5.</item>
+               <item>Thurſday 31. 1 Corinthians 6, 7, 8 9.</item>
+            </list>
+            <list>
+               <head>The twelfth Moneth February.</head>
+               <item>Friday 1 day, 1 Corinthians 10, 11, 12, 13.</item>
+               <item>Saturday 2. 1 Corinthians 14, 15 <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>6. 2 Corinth. 1.</item>
+               <item>Sunday 3. 2 Corinthians 2, <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </item>
+               <item>Monday 4. 2 Corinthians <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </item>
+               <item>Tueſday 5. 2 Corinthians <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </item>
+               <item>Wedneſday 6. Galatians <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </item>
+               <item>Thurſday 7. Galatians 5, 6 <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </item>
+               <pb n="15" facs="tcp:169855:8"/>
+               <item>Friday 8. Epheſians 3, 4, 5, 6.</item>
+               <item>Saturday 9. Philippians 1, 2, 3, 4.</item>
+               <item>Sunday 10. Coloſſians 1, 2, 3, 4.</item>
+               <item>Monday 11. 1 Theſſalonians 1, 2, 3, 4.</item>
+               <item>Tueſday 12. 1 Theſſalonians 5. 2 Theſſalonians 1, 2, 3.</item>
+               <item>Wedneſday 13. 1 Timothy 1, 2, 3, 4.</item>
+               <item>Thurſday 14. 1 Timothie 5, 6. 2 Timothie 1, 2.</item>
+               <item>Friday 15. 2 Timothie 3, 4. Titus 1, 2.</item>
+               <item>Saturday 16. Titus 3. Philemon 1. Hebrewes 1.2.</item>
+               <item>Sunday 17. Hebrewes 3, 4, 5, 6.</item>
+               <item>Monday 18. Hebrewes 7, 8, 9, 10.</item>
+               <item>Tueſday 19. Hebrewes 11, 12, 13.</item>
+               <item>Wedneſday 20. James 1, 2, 3.</item>
+               <item>Thurſday 21. James 4.5.</item>
+               <item>Friday 22. 1 Peter 1, 2, 3, 4.</item>
+               <item>Saturday 23. 1 Peter 5. 2 Peter 1, 2, 3.</item>
+               <item>Sunday 24. 1 John 1, 2, 3, 4.</item>
+               <item>Monday 25. 1 John 5. 2 John 1. 3 John 1. Jude 1.</item>
+               <item>Tueſday 26. Revelation 1, 2, 3, 4.</item>
+               <item>Wedneſday 27. Revelation 5, 6, 7, 8.</item>
+               <item>Thurſday 28. Revelation 9, 10, 11, 12.</item>
+            </list>
+            <list>
+               <head>The reſt of March.</head>
+               <item>Friday 1 day, Revelation 13, 14, 15, 16.</item>
+               <item>Saturday 2. Revelation 17, 18, 19, 20.</item>
+               <item>Sunday 3. Revelation 21, 22. Geneſis 1, 2.</item>
+               <item>Monday 4. Geneſis 3, 4, 5, 6.</item>
+               <item>Tueſday 5. Geneſis 7, 8, 9, 10.</item>
+               <item>Wedneſday 6. Geneſis 11, 12, 13, 14.</item>
+               <pb n="16" facs="tcp:169855:9"/>
+               <item>Thurſday 7. Geneſis 15, 16, 17, 18.</item>
+               <item>Friday 8. Geneſis 19, 20, 21, 22.</item>
+               <item>Saturday 9. Geneſis 23, 24, 25, 26.</item>
+               <item>Sunday 10. Geneſis 27, 28, 29, 30.</item>
+               <item>Monday 11. Geneſis 31, 32, 33, 34.</item>
+               <item>Tueſday 12. Geneſis 35, 36, 37, 38.</item>
+               <item>Wedneſday 13. Geneſis 39, 40, 41, 42.</item>
+               <item>Thurſday 14. Geneſis 43, 44, 45, 46.</item>
+               <item>Friday 15. Geneſis 47, 48, 49, 50.</item>
+               <item>Saturday 16. Exodus 1, 2, 3, 4.</item>
+               <item>Sunday 17. Exodus 5, 6, 7, 8.</item>
+               <item>Monday 18. Exodus 9, 10, 11, 12.</item>
+               <item>Tueſday 19. Exodus 13, 14, 15, 16.</item>
+               <item>Wedneſday 20. Exodus 17, 18, 19, 20.</item>
+               <item>Thurſday 21. Exodus 21, 22, 23, 24.</item>
+               <item>Friday 22. Exodus 25, 26, 27, 28.</item>
+               <item>Saturday 23. Exodus 29, 30, 31, 32.</item>
+               <item>Sunday 24. Exodus 33, 34, 35, 36.</item>
+            </list>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
